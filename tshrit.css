@@ -1,0 +1,53 @@
+.basic {
+    background-image: url(img/4.jpg);
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 10%);
+}
+.basic .image {
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    top: 25%;
+}
+.basic .image img {
+    max-width: 100%;
+    border-radius: 27px;
+    height: 250px;
+}
+.basic .dof {
+    position: absolute;
+    left: 55%;
+    top: 17%;
+    font-size: 19px;
+    color: #b4c36b;
+    font-style: italic;
+}
+.basic .cs {
+    position: absolute;
+    left: 32%;
+    top: 16%;
+    font-size: 23px;
+    color: #b4c36b;
+    font-style: italic;
+}
+.basic .sen {
+    position: absolute;
+    left: 41%;
+    top: 43%;
+    font-size: 40px;
+    color: #b4c36b;
+}
+.basic .eh {
+    position: absolute;
+    left: 34%;
+    top: 51%;
+    font-size: 31px;
+    color: #dbdee0;
+    /* color: #9ba086; */
+    letter-spacing: 7px;
+}
